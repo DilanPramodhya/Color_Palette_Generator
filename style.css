@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to bottom left, pink, navy);
+}
+
+.container {
+  width: 80vw;
+  height: 73vh;
+  background: linear-gradient(to bottom left, rgb(32, 4, 9), rgb(22, 22, 159));
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 4rem #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.logo {
+  width: 8rem;
+  height: 100%;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+header p {
+  margin: 1rem 0;
+  color: rgb(221, 218, 40);
+  font-size: 20px;
+}
+
+.space-key {
+  background-color: #5450c7;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0 0.4rem;
+  border-radius: 0.6rem;
+}
+
+main .generated-colors {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: .8rem;
+  margin-top: 4rem;
+}
+
+.generated-colors .generated-color {
+  position: relative;
+  height: 10rem;
+  margin-top: 20px;
+}
+
+.generated-color label {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: #0ac162;
+  border-radius: 0.8rem;
+  text-align: right;
+  box-shadow: 0 0.4rem 0.6rem #0005;
+  cursor: pointer;
+
+  transition: 0.2s ease-in-out;
+}
+
+.generated-color label:hover {
+  transform: scale(1.05);
+}
+
+label .color1 {
+}
+
+label .copy {
+  padding: 0.6rem 1.2rem;
+  background-color: transparent;
+  border: 0.2rem solid #fff;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+label .copy:hover {
+  background-color: #b0bb0e;
+  border: 0.2rem solid #111;
+}
+
+.color-value {
+  margin-top: 4rem;
+  text-align: left;
+  color: rgb(59, 66, 99);
+  font-size: 1.2rem;
+}
+
+input[type="color"] {
+  position: absolute;
+  left: 10%;
+  top: 91px;
+  visibility: hidden;
+}
