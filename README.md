@@ -26,7 +26,7 @@ A simple and interactive **Color Palette Generator** that allows users to genera
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/color-palette-generator.git
+   git clone https://github.com/DilanPramodhya/Color_Palette_Generator.git
    ```
 2. Navigate to the project folder:
    ```sh
@@ -55,5 +55,5 @@ If the **Copy to Clipboard** functionality is not working:
 This project is open-source and available under the **MIT License**.
 
 ---
-Developed by [Your Name]
+Developed by [DilanPramodhya]
 
